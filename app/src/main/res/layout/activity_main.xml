@@ -12,6 +12,8 @@
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,6 +24,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toStartOf="@+id/btn3"
         app:layout_constraintStart_toEndOf="@+id/btn1"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,6 +36,8 @@
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,6 +46,8 @@
         android:layout_width="120dp"
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
@@ -49,6 +57,8 @@
         android:layout_height="130dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toStartOf="@+id/btn6"
         app:layout_constraintStart_toEndOf="@+id/btn4"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
@@ -58,6 +68,8 @@
         android:layout_width="120dp"
         android:layout_height="130dp"
         android:layout_marginEnd="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn3" />
 
@@ -66,6 +78,8 @@
         android:layout_width="120dp"
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
@@ -75,6 +89,8 @@
         android:layout_height="130dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toStartOf="@+id/btn9"
         app:layout_constraintStart_toEndOf="@+id/btn7"
         app:layout_constraintTop_toBottomOf="@+id/btn5" />
@@ -84,6 +100,8 @@
         android:layout_width="120dp"
         android:layout_height="130dp"
         android:layout_marginEnd="16dp"
+        android:onClick="onClick"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn6" />
 
@@ -97,6 +115,7 @@
         android:layout_marginBottom="32dp"
         android:text="New Game"
         android:textSize="24sp"
+        android:onClick="newGameBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,12 +123,15 @@
 
     <TextView
         android:id="@+id/txtTurnWins"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_width="351dp"
+        android:layout_height="34dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="8dp"
+        android:onClick="onClick"
         android:text="Random Text"
+        android:textAlignment="center"
         android:textSize="24sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/btnNewGame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
